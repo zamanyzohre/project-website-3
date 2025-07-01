@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./font/font/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("./font/font/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("./font/font/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+    url("./font/font/Vazir-Medium-FD-WOL.eot") format("eot"); 
+ }
+
+:root{
+  --transition:all 0.3s ease-in
+}
+body {
+  font-family:"vazir",sans-serif !important;
+  line-height: 1.8rem;
+}
+a{
+  text-decoration: none;
+  color:rgb(43, 42, 42)
+}
+@media screen and (max-width:992px){
+  .nav{
+    background: white;
+  }
+}
+.shownav{
+  position: fixed;
+  top:0;
+  left: 0;right:0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  z-index: 50;
+ transition: var(--transition);
+}
+
+h3,h2{
+  line-height: 3rem;
+}
+
+
+.intro{
+  background: #dfe5eb;
+}
+.btn-intro{
+  transition: var(--transition);
+}
+.btn-intro:hover{
+  transform: scale(1.1);
+}
+.content-showcase{
+  background: #f6f9ff;
+}
+.counter .icon-1{
+  color:#4154f1;
+}
+.counter .icon-2{
+  color:#ee6c20;
+}
+.counter .icon-3{
+  color: #15be56;
+}
+.counter .icon-4{
+  color:#bb0852;
+}
+.Services .item-1{
+  border-bottom: 3px solid  #2db6fa;
+}
+.Services .item-2{
+  border-bottom: 3px solid  #f68c09;
+}
+.Services .item-3{
+  border-bottom: 3px solid  #08da4e;;
+}
+.Services .icon-5 , .icon-6 , .icon-7{
+font-size: 2rem;
+margin: 2rem 0;
+display: inline-block;
+padding: 1rem;
+line-height: 0;
+border-radius: 5px;
+}
+ .Services .icon-5{
+  background-color: #b6dbfdfa;
+  color:  #2db6fa;
+}
+ .Services .icon-6{
+  background-color:#fddaaf;
+  color: #f68c09;
+}
+ .Services .icon-7{
+  background-color:#cdf8f1;
+  color:#08da4e;
+}
+.Services .btn-1{
+  color: #2db6fa;
+}
+.Services .btn-2{
+  color: #f68c09;
+}
+.Services .btn-3{
+  color: #08da4e;
+}
+.Services i{
+  line-height: 0;
+  padding-right: 0.5rem;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4{
+  transition: var(--transition);
+}
+
+.item-1:hover{
+  background: #2db6fa;
+  color: white ;
+}
+.item-2:hover{
+  background:  #f68c09;
+  color: white ;
+}
+.item-3:hover{
+  background: #08da4e;
+  color: white ;
+}
+.item-1:hover .btn-1, .item-1:hover h5, 
+.item-2:hover .btn-2, .item-2:hover h5,
+.item-3:hover .btn-3,.item-3:hover h5
+{
+  color: white !important;
+}
+
+.item-1:hover .icon-5,
+.item-2:hover .icon-6,
+.item-3:hover .icon-7{
+  background-color: #fff;
+}
+
+ .text-plane-1{
+  color: #07d5c0;
+}
+ .text-plane-2{
+  color: #65c600;
+}
+ .text-plane-3{
+  color: #ff901c;
+}
+ .text-plane-4{
+  color: #ff0071;
+}
+.plane-1,
+.plane-2,
+.plane-3,
+.plane-4 {
+  transition: var(--transition);
+}
+.plane-1:hover,
+.plane-2:hover,
+.plane-3:hover,
+.plane-4:hover {
+  transform: scale(1.1);
+}
+.plane img{
+  width: 150px;
+}
+.plane p, .contact p{
+  line-height: 1rem;
+}
+.contact .text{
+direction: ltr;
+text-align: right;
+}
+.links .border-btn{
+  border-bottom: 4px solid rgb(171, 204, 253);
+  width: 70%;
+  padding-bottom: 1.5rem;
+}
+@media screen and (min-width:992px) {
+.links-title{
+ max-width: 22rem;
+ margin: 0 auto;
+}
+} 
